@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:form_field_validator/form_field_validator.dart';
-import 'package:loginui_appelopment01/constnats.dart';
-import 'package:loginui_appelopment01/screens/loginscreen.dart';
+
+
 import 'package:loginui_appelopment01/widgets/loginuppersection.dart';
 import 'package:loginui_appelopment01/widgets/lowersectionlogin.dart';
 import '../widgets/Inputfielduser.dart';
@@ -34,9 +34,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
     Navigator.pop(context);
   }
 
-  void _forgetYourPassword() {
-    print('Forget your password');
-  }
 
   void _toggleHiddenPassword() {
     setState(() {
@@ -46,7 +43,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    var height = MediaQuery.of(context).size.height;
+   
     return Scaffold(
       resizeToAvoidBottomPadding: false,
       body: Column(

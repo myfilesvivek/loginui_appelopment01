@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loginui_appelopment01/screens/registrationscreen.dart';
+
 import 'screens/loginscreen.dart';
 
 void main() {

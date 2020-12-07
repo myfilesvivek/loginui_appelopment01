@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class RoundedButton extends StatelessWidget {
   final buttontext;
-  double buttonTopMargin;
+  final double buttonTopMargin;
   final Function onPressed;
   
 

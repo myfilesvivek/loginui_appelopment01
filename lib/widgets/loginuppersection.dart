@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class UpperSectionLoging extends StatelessWidget {
   final String pageName;
-     double postion;
+   final   double postion;
   
 
   UpperSectionLoging({this.pageName,this.postion = 25});
